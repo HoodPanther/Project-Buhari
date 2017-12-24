@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jan 13 10:45:56 2017
+
 
 @author: CHIBUEZE
 """
@@ -18,10 +18,10 @@ import sys
 def load_api():
     ''' Function that loads the twitter API after authorizing the user. '''
 
-    consumer_key = 'kaD7RAfHJUXaE56Ugn30QOTak'
-    consumer_secret = 'O5AecWDigoQQu2Wp31FJKsw5E3aN0vNTf6Wor9WPQAguzNxFf6'
-    access_token ='456827035-Sk25SyLx6jWu6svZpzozIhy3suOs8wrVxWq61JJw'
-    access_secret = 'VzRNdID7SwCuVMtnVdBOJWrzcVQ21lcWpXvAFYFSDlKBs'
+    consumer_key = 'your key'
+    consumer_secret = 'your key'
+    access_token ='your key'
+    access_secret = 'your key'
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_secret)
     # load the twitter API via tweepy
